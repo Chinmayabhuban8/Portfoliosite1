@@ -1,0 +1,222 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+body
+{
+    background:linear-gradient(red, yellow);;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+}
+nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    color: white;
+    padding: 0px 100px;
+    position: absolute;
+    z-index: 1;
+}
+.logo
+{
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-left: 20%;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    font-size: 20px;
+    
+}
+
+.circle1
+{
+    width: 700px;
+    height: 700px;
+    background: black;
+    clip-path:  circle(100% at 0% 0%);
+    
+    
+}
+.h-text
+{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    color: white;
+    z-index: 1;
+}
+.h-text h1{
+    font-size: 5.5em;
+}
+.h-text h2{
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 5px;
+}
+.r-img img{
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    width: 500px;
+    height: 480px;
+    border-radius: 50%;
+    
+    
+}
+.watermark1
+{
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    font-size: 6.5em;
+    letter-spacing: 15px;
+    color: rgba(255,255,255,0.4);
+}
+#about
+{
+    padding: 50px 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color:rgb(231, 9, 9);
+}
+.circle2
+{
+    width: 400px;
+    height: 400px;
+    background:black;
+    border-radius: 51% 49% 51% 49% / 30% 30% 70% 70% ;
+    top: 20%;
+    right: 10%;
+    position: absolute;
+}
+.about-text
+{
+    text-align: right;
+    color:white;
+    max-width: 600px;
+    position: absolute;
+    margin-top: 10%;
+    right: 18%;
+    z-index: 1;
+}
+.about-text h1{
+    font-size: 4.5em;
+    margin-bottom: 20px;
+}
+.about-text h2
+{
+    color: white;
+    margin-bottom: 20px;
+}
+#ab-img
+{
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    margin-bottom: 20%;
+    z-index: 1;
+}
+#service
+{
+    padding: 0px 60px;
+    width: 100%;
+    height: 100vh;
+    background: red;
+}
+.card
+{
+    padding-top: 350px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-box
+{
+    flex-basis: 25%;
+    background: white;
+    color: red;
+    padding: 100px;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px black;
+}
+.card-box h2{
+    color:black;
+    margin-bottom:10px;
+    
+}
+#contact
+{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 100px;
+    position: relative;
+    
+
+}
+.watermark2
+{
+    position: absolute;
+    top: -9%;
+    right: 8%;
+    color: rgba(255,255,255,0.4);
+    font-size: 8.5em;
+    letter-spacing: 15px;
+
+} 
+.form{
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+}
+.form input
+{
+    padding: 10px;
+    background: none;
+    width: 100%;
+    border: 1px solid  red;
+    margin-bottom: 10px;
+}
+textarea
+{
+    padding: 10px;
+    background: none;
+    width: 100%;
+    border: 1px solid  #e91e63;
+    margin-bottom: 10px;
+}
+button
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color:white;
+    background: red;
+    cursor: pointer;
+   
+}
+
+footer
+{
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: red;
+    
+}
+footer p
+{
+    color:white
+}
